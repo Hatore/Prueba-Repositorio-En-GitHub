@@ -89,6 +89,7 @@ public class HomeActivity extends BaseActivity {
 					try {
 						while ((read = is.read(buffer)) != -1) {
 							fos.write(buffer, 0, read);
+							//unm si mami que rico
 						}
 					} finally {
 						fos.flush();
